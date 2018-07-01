@@ -8,7 +8,7 @@ import numpy as np
 
 def compute_error_for_line_given_points(b, m, points):
     totalError = 0
-    for i n range(0, len(points)):
+    for i in range(0, len(points)):
         x = points[i, 0]
         y = points[i, 1]
         totalError += (y - (m * x + b)) ** 2
