@@ -52,6 +52,6 @@ def run():
     "After {0} iterations b = {1}, m = {2}, error = {3}".format(num_iterations, b, m,
                                                                 compute_error_for_line_given_points(b, m, points))
 
-    if __name__ == '__main__':
-        run()
+if __name__ == '__main__':
+    run()
 
