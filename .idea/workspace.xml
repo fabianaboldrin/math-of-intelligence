@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfb98d92-ea24-48c3-99e1-75e3f5b26794" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/gradient-descent-algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/gradient-descent-algorithm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradient descent algorithm/.gitignore.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/gradient descent algorithm/data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradient-descent-algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/gradient descent algorithm/gradient-descent-algorithm.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,13 +15,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="gradient-descent-algorithm.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gradient-descent-algorithm.py">
+      <file leaf-file-name="gradient-descent-algorithm.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradient descent algorithm/gradient-descent-algorithm.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gradient descent algorithm/.gitignore.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -38,6 +45,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/gradient-descent-algorithm.py" />
+        <option value="$PROJECT_DIR$/gradient descent algorithm/.gitignore.py" />
       </list>
     </option>
   </component>
@@ -68,6 +76,11 @@
             <path>
               <item name="math-of-intelligence" type="b2602c69:ProjectViewProjectNode" />
               <item name="math-of-intelligence" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="math-of-intelligence" type="b2602c69:ProjectViewProjectNode" />
+              <item name="math-of-intelligence" type="462c0819:PsiDirectoryNode" />
+              <item name="gradient descent algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -116,8 +129,8 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.27291667" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.185836" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.27291667" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.185836" />
       <window_info anchor="right" id="R Packages" />
       <window_info anchor="bottom" id="Docker" />
       <window_info anchor="right" id="R Graphics" />
@@ -142,12 +155,15 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gradient-descent-algorithm.py">
+    <entry file="file://$PROJECT_DIR$/gradient descent algorithm/gradient-descent-algorithm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradient descent algorithm/.gitignore.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
