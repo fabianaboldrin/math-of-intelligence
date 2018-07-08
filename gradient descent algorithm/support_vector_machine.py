@@ -42,3 +42,24 @@ def svm_sgd_plot(X,Y):
     epochs = 100000
     #store misclassifications to plot it over time
     errors = []
+
+    #training part
+    for epoch in range(1, epochs):
+        error = 0
+        for i, x in enumerate(X):
+            #misclassification
+            if (Y[i]*np.dot(X[i], w)) < 1:
+                #missclassified update for weights
+                w = w + eta * ( (X[i] * Y[i]) + (-2 * (1/epoch) * w) )
+            else:
+                #correct classification, update our weights
+                w = w + eta * (-2 * (1/epoch) * w)
+
+        errors.append(error)
+    #plot the rate of classification errors during training
+    plt.plot(errors, '|')
+    plt.ylim(0.5,1.5)
+    plt.axes().set_yticklabels([])
+    plt.xlabel('Epoch')
+    plt.ylabel('Missclassified')
+    plt.show()
