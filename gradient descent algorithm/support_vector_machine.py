@@ -63,3 +63,27 @@ def svm_sgd_plot(X,Y):
     plt.xlabel('Epoch')
     plt.ylabel('Missclassified')
     plt.show()
+
+    return w
+
+svm_sgd_plot(X,Y)
+
+for d, sample in enumerate(X):
+    # plot the negative samples
+    if d < 2:
+        plt.scatter(sample[0], sample[1], s=120, marker='_', linewidths= 2)
+    # plot the positive samples
+    else:
+        plt.scatter(sample[0], sample[1], s=120, marker='+', linewidths= 2)
+# Ass our test samples
+plt.scatter(2,2, s=120, marker='_', linewidths=2, color='yellow')
+plt.scatter(4,3, s=120, marker='+', linewidths=2, color='blue')
+
+#print the hyperplane calculated by svm_sgd()
+x2 = [w[0], w[1], -w[1], w[0]]
+x3 = [w[0], w[1], w[1], -w[0]]
+
+x2x3 = np.array([x2,x3])
+X,Y,U,V = zip(*x2x3)
+ax = plt.gca()
+ax.quiver(X,Y,U,V, scale=1, color='blue')
