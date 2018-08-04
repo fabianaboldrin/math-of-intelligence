@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dfb98d92-ea24-48c3-99e1-75e3f5b26794" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/logistic regression algorithm/newton's method.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/logistic regression algorithm/newton's method.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistic regression algorithm/newton's method.py" beforeDir="false" afterPath="$PROJECT_DIR$/logistic regression algorithm/newton's method.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +20,8 @@
       <file leaf-file-name="support_vector_machine.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gradient descent algorithm/support_vector_machine.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1305">
-              <caret line="88" column="41" selection-start-line="88" selection-start-column="41" selection-end-line="88" selection-end-column="41" />
+            <state relative-caret-position="-12">
+              <caret line="39" column="11" lean-forward="true" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -28,20 +29,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="newton's method.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="newton's method.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/logistic regression algorithm/newton's method.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="18" selection-start-column="18" selection-end-column="18" />
+            <state relative-caret-position="693">
+              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="newton's method.ipynb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="newton's method.ipynb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/logistic regression algorithm/newton's method.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="7" />
+              <selected id="6" />
             </state>
           </provider>
         </entry>
@@ -69,9 +73,9 @@
         <option value="$PROJECT_DIR$/gradient descent algorithm/gradient-descent-algorithm.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/gradient descent algorithm/support_vector_machine.py" />
-        <option value="$PROJECT_DIR$/logistic regression algorithm/newton's method.py" />
         <option value="$PROJECT_DIR$/gradient descent algorithm/support_vector_machine.ipynb" />
         <option value="$PROJECT_DIR$/logistic regression algorithm/newton's method.ipynb" />
+        <option value="$PROJECT_DIR$/logistic regression algorithm/newton's method.py" />
       </list>
     </option>
   </component>
@@ -178,11 +182,11 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17480999" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.17480999" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.1324647" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.086840704" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.13137893" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.086840704" />
       <window_info anchor="right" id="R Packages" order="3" />
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="right" id="R Graphics" order="3" />
@@ -221,6 +225,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="18" selection-start-column="18" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -522,25 +529,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gradient descent algorithm/support_vector_machine.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
-          <caret line="88" column="41" selection-start-line="88" selection-start-column="41" selection-end-line="88" selection-end-column="41" />
+        <state relative-caret-position="-12">
+          <caret line="39" column="11" lean-forward="true" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logistic regression algorithm/newton's method.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logistic regression algorithm/newton's method.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="7" />
+          <selected id="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logistic regression algorithm/newton's method.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
